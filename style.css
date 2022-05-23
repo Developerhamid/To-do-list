@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* border: 2px solid green; */
+}
+
+body {
+  background-color: #00008b59;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  background-color: #161d1e87;
+  color: #fff;
+}
+
+nav > h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  width: 70%;
+  min-height: 80vh;
+  margin: 10px auto;
+  background: #ffffff;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  padding: 6px;
+  margin: 8px 0;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #3b5fbd61;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.task-heading {
+  margin-top: 1rem;
+}
+
+.tasks {
+  display: flex;
+  padding: 10px 20px;
+  background: rgb(134 135 135 / 39%);
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid pink;
+}
+
+.task-info {
+  width: 100%;
+}
+
+.task-info > span {
+  color: #000000c9;
+  margin: 4px 0;
+}
+
+.btn {
+  padding: 6px 5px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  background: none;
+  border: none;
+  color: #ee0830;
+}
+
+.btn:hover {
+  color: red;
+  font-weight: 700;
+}
